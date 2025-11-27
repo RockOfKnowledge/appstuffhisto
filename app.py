@@ -1,4 +1,3 @@
-pip install -r requirements.txt
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -184,5 +183,6 @@ with tabs[1]:
     st.pyplot(fig2)
 
 st.caption("Built with ❤️ using Streamlit & SciPy")
+
 
 
