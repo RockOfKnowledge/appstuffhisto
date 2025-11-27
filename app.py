@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import stats
 
-st.set_page_config(page_title="Histogram Distribution Fitter", layout="wide")
+st.set_page_config(page_title="Histogram Distribution Machine", layout="wide")
 
 # =========================================================
 # Custom FitError (SciPy does NOT expose a public FitError)
@@ -222,7 +222,5 @@ with tabs[1]:
     ax2.plot(x, pdf_vals_manual, "g-")
     st.pyplot(fig2)
 
-st.caption("Built with ❤️ using Streamlit & SciPy")
-
-
-
+st.caption("Histo all ur grams here!!!!")
+ 
