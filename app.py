@@ -140,10 +140,10 @@ if safe_len(data) == 0:
 # =========================================================
 # Main Layout
 # =========================================================
-st.title("📈 Histogram Distribution Fitting App")
+st.title("DA MACHINE OF HISTOGRAMATORY! 💀")
 st.success(f"Dataset loaded with {safe_len(data)} values.")
 
-tabs = st.tabs(["🔧 Automatic Fit", "🎛 Manual Fit"])
+tabs = st.tabs(["Auto Fit", "Manual Fit"])
 
 # =========================================================
 # TAB 1 — Automatic Fit
@@ -223,4 +223,4 @@ with tabs[1]:
     st.pyplot(fig2)
 
 st.caption("Histo all ur grams here!!!!")
- 
+
